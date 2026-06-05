@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
 ## Getting Started
@@ -34,3 +35,51 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+=======
+﻿# My Project
+# Stage 1 - Priority Notification System
+
+## Setup
+
+Install dependencies
+
+```bash
+npm install
+```
+
+Run application
+
+```bash
+npm start
+```
+
+Server starts on:
+
+```text
+http://localhost:3000
+```
+
+## API Endpoint
+
+```text
+GET /top-notifications
+```
+
+## Priority Rules
+
+```text
+Placement > Result > Event
+```
+
+If two notifications have the same type, the newer notification receives higher priority.
+
+## Output
+
+Returns the top 10 highest priority notifications.
+
+## Technologies
+
+* Node.js
+* Express.js
+* Axios
+>>>>>>> 9afa1d3e250772f20be71a33d6f03f93d66a7ff4
